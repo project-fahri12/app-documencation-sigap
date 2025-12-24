@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  loadPartial("navbar", "/partials/navbar.html");
-  loadPartial("sidebar", "/partials/sidebar.html");
+  loadPartial("navbar", "../partials/navbar.html");
+  loadPartial("sidebar", "///partials/sidebar.html");
 });
 
 async function loadPartial(id, file) {
